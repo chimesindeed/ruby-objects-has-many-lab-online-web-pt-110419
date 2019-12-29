@@ -27,6 +27,7 @@ x = nil
   else x = "yabba!"
 end
 }
-end
 p x
+end
+
 end
