@@ -22,8 +22,9 @@ end
 def artist_name
 @@all.each {|item|
   if item == self && item.artist != nil
-    return item.artist
-  else puts "yabba!"
+    x = item.artist
+  else x = "yabba!"
+    p x
 end
 }
 
