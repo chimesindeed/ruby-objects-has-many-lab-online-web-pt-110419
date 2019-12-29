@@ -24,7 +24,7 @@ x = nil
 @@all.each {|item|
   if item == self
     x = item.artist
-  else x = "yabba!"
+  else x = nil
 end
 }
 p x
