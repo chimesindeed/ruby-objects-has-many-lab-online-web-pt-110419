@@ -20,12 +20,11 @@ def artist=(artist)
 end
 
 def artist_name
-  if @name == nil
-    x = nil
-  else x = self.artist.name
-  end
-  x
-end
-
+@@all.each {|item|
+  if item == self && item.artist != nil
+    return item.artist
+  else puts "yabba!"
 end
 #binding.pry
+end
+end
