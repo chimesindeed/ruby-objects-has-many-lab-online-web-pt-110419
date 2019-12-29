@@ -21,12 +21,7 @@ end
 
 def artist_name
 x = nil
-@@all.each {|item|
-  if item == self
-    x = item.artist
-  else x = nil
-end
-}
+self.artist ? x = self.artist : x = nil
 p x
 end
 
