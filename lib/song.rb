@@ -25,6 +25,7 @@ def artist_name
     return item.artist
   else puts "yabba!"
 end
-#binding.pry
+}
+
 end
 end
