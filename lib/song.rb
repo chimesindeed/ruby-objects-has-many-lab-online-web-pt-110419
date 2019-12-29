@@ -20,13 +20,13 @@ def artist=(artist)
 end
 
 def artist_name
+x = nil
 @@all.each {|item|
   if item == self && item.artist != nil
     x = item.artist
   else x = "yabba!"
-    p x
 end
 }
-
+x
 end
 end
