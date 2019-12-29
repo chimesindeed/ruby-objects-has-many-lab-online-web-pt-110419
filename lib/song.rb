@@ -21,7 +21,7 @@ end
 
 def artist_name
 x = nil
-self&.artist.name ? x = self.artist : x = nil
+self.artist&.name ? x = self.artist : x = nil
 p x
 end
 
