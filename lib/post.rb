@@ -20,7 +20,11 @@ def author=(author)
  author.posts << self
 end
 def author_name
+x = nil
+self.author&.name ? x = self.author.name : x = nil
+p x
 end
+
 
 
 
